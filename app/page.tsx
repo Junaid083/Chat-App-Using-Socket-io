@@ -52,8 +52,8 @@ export default function Home() {
         {!showSpinner ? (
           "Join"
         ) : (
-          <div className="animate-spin rounded-full h-4 w-4 border-t-2 border-b-2 border-blue-500"></div>
-        )}
+<div className="loader border-t-2 rounded-full border-gray-500 bg-gray-300 animate-spin
+aspect-square w-8 flex justify-center items-center text-yellow-700"></div>        )}
       </button>
     </div>
     <div style={{ display: !showChat ? "none" : "" }}>
